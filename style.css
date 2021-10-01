@@ -1,0 +1,672 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color:lightgray;
+    padding: 5px;
+    position: relative;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    box-shadow: 2px 2px 5px;
+    
+
+}
+ nav h1{
+    position: absolute;
+    margin: 20px;
+    margin-left: 50px;
+  
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+     font-size: 35px;
+}
+.name-lt{
+    margin-top: 51px;
+    margin-left: 51px;
+       font-family: 'Lato', sans-serif;
+    position: absolute;
+}
+.main-link{
+    text-decoration: none;
+}
+.funny{
+    color: #0D0D0D;
+    margin-bottom: 5px;
+}
+.bunny{
+    color: #590202;
+    margin-left: 5px;
+}
+.h2-1{
+    margin-bottom: 5px;
+}
+.h2-2{
+    margin-top: 5px;
+}
+ul{
+    width: 100%;
+    text-align: right;
+    padding-top: 15px;
+}
+.gmail{
+    position: absolute;
+    margin-left: 1350px;
+    margin-top: 5px;
+}
+.gmail h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+.gmail a{
+    text-decoration: none;
+    color: #000;
+}
+.meniu li{
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    background-color:#262626;
+    margin-right: 20px;
+    font-family: 'Rubik', sans-serif;
+    transition: 0.2s;
+}
+
+ .meniu li a{
+    display: block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-top: 16px;
+}
+.meniu li:hover{
+    transition: 0.2s;
+    background-color: crimson;
+    transform: scale(0.9);
+
+}
+header div{
+    width: 550px;
+    height: 400px;
+    margin: 70px auto;
+    padding-top: 100px;
+    position: relative;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nuotrauka{
+    width: 100%;
+    height: 1500px;
+    background-image: url("image%20(1).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    
+}
+/*Main*/
+main{
+    width: 60%;
+    height: 1350px;
+    margin: 0 auto;
+    padding-top: 100px;
+    position: relative;
+    background-color: #fff;
+    
+}
+
+main .ul-1{
+    display: block;
+    width: 175px;
+    height: 500px;
+    margin-left: 20px;
+    list-style: none;
+    position: absolute;
+    margin-top: 15px;
+}
+main .ul-1 li{
+    display: block;
+    width: 175px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+    list-style: none;
+    transition: 0.2s;
+    
+}
+.prekes{
+    background-color: darkgreen;
+}
+main li:hover{
+    background-color: crimson;
+    transition: 0.2s;
+}
+main .nubas{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: 175px;
+    height: 55px;
+    padding-top: 10px;
+    z-index: 42342424242;
+}
+.ul-2{
+    display: none;
+}
+.prekes:hover > ul{
+    display: block;
+}
+
+.ul-2 li{
+    background-color: #262626;
+    width: 175px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+    list-style: none;
+    transition: 0.2s;
+    margin-bottom: 5%;
+}
+.ul-2 a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: 175px;
+    height: 55px;
+    padding-top: 10px;
+}
+.email-img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 1000px;
+    
+}
+.form-control{
+    width: 700px;
+    height: 30px;
+    margin-top: 32px;
+    margin-left: 220px;
+    background-color: lightgrey;
+}
+.search-foto{
+    position: absolute;
+    width: 32px;
+   height: 32px;
+    margin-left: 890px;
+    margin-top: -34px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pasiulimai{
+    width: 450px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pasiulimai-1{
+    background-image: url("pardavimai-1.png");
+    margin-left: 350px;
+    margin-top: 75px;
+    transition: 2s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    }
+
+    .pasiulimai-1:hover > .pasiulimai-1-h6 {
+        display: block;
+        height: 60px;
+        margin-top: 220px;
+        font-size: 35px;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        padding-top: 20px;
+        text-decoration: none;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: 2s;
+
+    }
+
+    .pasiulimai-1-h6 {
+        display: none;
+    }
+
+    .pasiulimai-2 {
+        background-image: url("pardavimai-2.png");
+        margin-left: 350px;
+        margin-top: 450px;
+        transition: 2s;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .pasiulimai-2:hover > .pasiulimai-1-h6 {
+        display: block;
+        height: 60px;
+        margin-top: 220px;
+        font-size: 35px;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    transition: 2s;
+    
+}
+.pasiulimai-3{
+    margin-left: 350px;
+    margin-top: 850px;
+    transition: 2s;
+    background-image: url("pardavimai-3.png");
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.pasiulimai-3:hover > .pasiulimai-1-h6{
+    display: block;
+        height: 60px;
+        margin-top: 220px;
+        font-size: 35px;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    transition: 2s;
+}
+
+
+.ad-1-a{
+ position: absolute;
+    width: 265px;
+    height: 700px;
+    border-radius: 10px;
+    margin-left: 840px;
+    margin-top: 260px;
+    animation-name: ad-1-animatio;
+    animation-iteration-count: infinite;    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    
+}
+.ad-1-a::before,
+.ad-1-a::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.ad-1-a::before{
+    background-color: white;
+    animation: typewriter 10s ease;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+    animation-delay: 2s;
+}
+
+.ad-1{
+    width: 265px;
+    height: 700px;
+    
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+
+.ad-2-a{
+ position: absolute;
+    width: 265px;
+    height: 700px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 350px;
+    animation-name: ad-1-animation;
+    animation-iteration-count: infinite;    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    
+}
+.ad-2-a::before,
+.ad-2-a::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.ad-2-a::before{
+    background-color: white;
+    animation: typewriter 10s ease;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+    animation-delay: 2s;
+}
+
+.ad-2{
+    width: 265px;
+    height: 700px;
+    
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+.reklama{
+    width: 100%;
+    height: 30px;
+    background-color: #262626;
+    position: absolute;
+    margin-top: 1255px;
+    padding-top: 3px;
+}
+.reklama h4{
+    display: inline-block;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20px;
+    position: relative;
+    height: 25px;
+}
+.reklama h4::before,
+.reklama h4::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.reklama h4::before{
+    background-color: #262626;
+    animation: typewriter 4s ease;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+.footers{
+    display: inline-block;
+}
+h8{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 1230px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    position: absolute;
+}
+
+.footer-remejai{
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    margin-left: 1230px;
+    padding-top: 80px;
+}
+
+.footer-remejai a{
+    text-decoration: none;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    transition: 0.2s;
+}
+
+
+
+
+
+
+.footer-foto{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    padding: 50px;
+    margin-left: 725px;
+    letter-spacing: 1px;
+}
+.footer-foto h7{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+}
+.footer-foto a{
+    transition: 0.2s;
+}
+.footer-foto a:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+.footer-foto img{
+    width: 75px;
+    height: 75px;
+    margin-top: 30px;
+    margin-left: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer-1{
+    width: 800px;
+    height: 90%;
+}
+.footer-1 h6{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.footer-1 .tekstas{
+    text-decoration: none;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    margin-left: 300px;
+    margin-top: 12px;
+    transition: 0.2s;
+    
+}
+.footer-1 a:hover{
+    transition: 0.2s;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-linija{
+    width: 95%;
+    height: 1px;
+    margin: 0 auto;
+    background-color: darkgrey;
+}
+footer p{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-left: 45px;
+    color: darkgrey;
+}
+@keyframes typewriter {
+    to { left: 100%;}
+}
+@keyframes ad-1-animation{
+    
+    to { bottom: 100%}
+}
+
+
+
+
+
+
+
+
+
+
+
+
